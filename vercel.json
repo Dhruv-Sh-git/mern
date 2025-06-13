@@ -15,8 +15,5 @@
       "src": "/(.*)",
       "dest": "/frontend/build/$1"
     }
-  ],
-  "projectSettings": {
-    "framework": "create-react-app"
-  }
+  ]
 }
