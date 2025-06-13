@@ -2,13 +2,7 @@
 node_modules/
 .env
 .env.*
-
 # Frontend build output
 /backend/node_modules/
 /frontend/node_modules/
 /backend/.env
-
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
