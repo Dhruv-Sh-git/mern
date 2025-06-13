@@ -1,0 +1,15 @@
+# Global ignore
+node_modules/
+.env
+.env.*
+
+# Frontend build output
+/frontend/build/
+/frontend/dist/
+
+/backend/node_modules/
+/frontend/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
