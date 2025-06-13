@@ -1,17 +1,18 @@
 {
+  "version": 2,
   "builds": [
     {
-      "src": "frontend/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "frontend/build"
-      }
+      "src": "/frontend/package.json",
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/frontend/$1"
+      "dest": "/index.js"
     }
-  ]
+  ],
+  "projectSettings": {
+    "framework": "create-react-app"
+  }
 }
